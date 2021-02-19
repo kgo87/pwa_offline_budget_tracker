@@ -36,7 +36,7 @@ The final application looks like this:
 ![Screenshot](./public/media/final1.png)
 When the network fails, the transaction is being saved in indexedDB:
 ![Screenshot](./public/media/final_off.png)
-## 5. Contact details<a name="contact"></a>
+## 6. Contact details<a name="contact"></a>
 If you have any questions, contact me via email: 
 
 <a href="mailto:kathy.gomozova@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
