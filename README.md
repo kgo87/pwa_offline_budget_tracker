@@ -13,9 +13,8 @@
 This is a full-stack progressive web application for tracking expenses and earnings and allows offlines functionality . It allows to add and visualize transactions, and view the overall budget. Developed using MongoDB for backend and JS for frontend. The application is deployed to Heroku using MongoDB Atlas. 
 
 ## 2. Task<a name="task"></a>
-Task is to build a workout tracker that allows user to view, create and track daily workouts.
-The app contains three main routes: GET - to allow the user to view their workouts , POST - to allow the user to create a new workout, PUT - to allow the user to add new excersices to the existing workout. There is also an additional GET route that allows the user to view the specific range of their workouts. 
-
+Task is to build a budget tracker that allows user to add and visualize transactions, and view the overall budget. Transactions are visualized as an area chart. The application allows offline functionality which means that if during the moment when the user makes a transaction the network fails, the transactions are temporarily being saved to an IndexedDB, and later pushed to MongoDB, when the network is back.
+Backend  app contains two POST routes (for insering a single and several transactions) and one GET route to view the transactions. Frontend contains a functionality to implement indexedDB.  
 
 ## 3. Link to Heroku deployment <a name="link"></a>
 The project is deployed on Heroku and available for view using this link:
